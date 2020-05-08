@@ -1,0 +1,575 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Bebas Neue;
+  /* Гарнитура шрифта */
+  src: url(../fonts/bebas/BebasNeueRegular.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: AfishaCap;
+  /* Гарнитура шрифта */
+  src: url(../fonts/AfishaCap/afisha.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: PT Sans;
+  /* Гарнитура шрифта */
+  src: url(../fonts/PTSans/ptsans.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: Arctika script;
+  /* Гарнитура шрифта */
+  src: url(../fonts/arctika-script/arctika-script.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: Lobster;
+  /* Гарнитура шрифта */
+  src: url(../fonts/lobster/lobster.ttf);
+  /* Путь к файлу со шрифтом */ }
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  outline: none;
+  border: none; }
+
+.fon {
+  background: url("../img/fon.png"); }
+
+.razdelitel {
+  display: block;
+  margin: 0 auto;
+  margin-top: 68px; }
+
+header p {
+  display: inline-block;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #313035;
+  margin-top: 35px; }
+
+header img {
+  margin-top: -3px; }
+
+header .header-clock {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 5px; }
+
+header .header-phone {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 5px; }
+
+header .main-menu {
+  height: 60px;
+  background: #393330; }
+  header .main-menu ul > li {
+    display: inline-block;
+    background: #393330;
+    border-top: 4px solid #393330;
+    width: 140px;
+    height: 60px;
+    text-align: center; }
+  header .main-menu ul > li:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-top: 4px solid #998275; }
+  header .main-menu a {
+    display: inline-block;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 17px;
+    text-decoration: none; }
+  header .main-menu .soc-seti-tw, header .main-menu .soc-seti-vk, header .main-menu .soc-seti-fb {
+    margin-top: 0px; }
+  header .main-menu .soc-seti-vk {
+    width: 24px;
+    height: 15px;
+    margin-right: 37px; }
+  header .main-menu .soc-seti-fb {
+    width: 10px;
+    height: 20px;
+    margin-right: 37px; }
+  header .main-menu .soc-seti-tw {
+    width: 21px;
+    height: 17px;
+    margin-right: 30px; }
+
+header .header-logo {
+  width: 398px;
+  height: 91px; }
+
+header p {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #313035; }
+
+header .btnHeader {
+  display: block;
+  text-decoration: none;
+  width: 150px;
+  height: 49px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  background: transparent;
+  margin-top: 20px;
+  padding: 13px 10px; }
+
+.screen1 {
+  height: 500px;
+  background: brown;
+  background: url("../images/bg_screen1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  .screen1 p {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BF9E7E;
+    margin-top: 100px; }
+  .screen1 h1 {
+    font-family: AfishaCap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+    max-width: 1200px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 21px; }
+  .screen1 .btnZabr_screen1 {
+    display: block;
+    text-decoration: none;
+    width: 230px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 15px 10px; }
+
+.o-nas h3 {
+  margin-top: 80px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7E594C; }
+
+.o-nas h2 {
+  margin-top: 7px;
+  font-family: AfishaCap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #313035; }
+
+.o-nas p {
+  display: block;
+  width: 1200px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #8F8A87;
+  margin: 0 auto; }
+
+.o-nas .btnPorobnee {
+  display: block;
+  text-decoration: none;
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: transparent;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #313035; }
+
+.address h2 {
+  font-family: AfishaCap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #313035;
+  margin-top: 64px; }
+
+.address p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #71645C;
+  padding-top: 51px; }
+
+.address h3 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #313035; }
+
+.address .quote-pic1 {
+  margin-left: 250px; }
+
+.address .quote-pic2 {
+  margin-top: -140px; }
+
+.address .quote {
+  height: 282px;
+  background: url("../img/quote.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 20px 20px; }
+  .address .quote p {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+    color: #313035;
+    margin-top: 22px; }
+  .address .quote .sign {
+    font-family: Arctika script;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #7E594C;
+    margin-top: -45px; }
+
+.predlagaem .btnZabronPredl {
+  display: block;
+  text-decoration: none;
+  width: 230px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #7E594C;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px 15px; }
+
+.predlagaem p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8F8A87;
+  margin-top: 11px; }
+
+.predlagaem h4 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #313035;
+  margin-top: 24px; }
+
+.predlagaem h3 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7E594C;
+  margin-top: 70px; }
+
+.predlagaem h2 {
+  font-family: AfishaCap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #313035; }
+
+.predlagaem .predlogenia {
+  height: 183px;
+  margin-bottom: 32px; }
+  .predlagaem .predlogenia img {
+    display: inline-block;
+    height: 50px; }
+
+.galereja .cadr img {
+  border-radius: 5px;
+  padding: 20px;
+  width: 24%; }
+
+.galereja .slider-wrapper {
+  position: relative; }
+
+.galereja .left-row {
+  z-index: 10;
+  width: 45px;
+  height: 45px;
+  background: transparent;
+  position: absolute;
+  left: -60px;
+  top: 246px; }
+
+.galereja .right-row {
+  width: 45px;
+  height: 45px;
+  background: transparent;
+  position: absolute;
+  right: -75px;
+  top: 246px; }
+
+.galereja h2 {
+  font-family: Lobster;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #313035; }
+
+.galereja .btnZabronGalerea {
+  display: block;
+  text-decoration: none;
+  width: 230px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #7E594C;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 46px;
+  padding: 10px 15px; }
+
+.galereja .btnVGalereu {
+  display: block;
+  text-decoration: none;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #998275;
+  background: transparent;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: -29px;
+  margin-bottom: 100px;
+  padding-left: 723px; }
+
+footer {
+  background: url("../img/footer-bg.png");
+  height: 245px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  footer p {
+    display: inline-block;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  footer img {
+    margin-top: -3px; }
+  footer .footer-clock {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-right: 5px; }
+  footer .footer-phone {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-right: 5px; }
+  footer .footer-phone-and-clock {
+    margin-top: 66px; }
+  footer .footer-logo {
+    margin-top: 67px; }
+  footer .footer-menu {
+    margin-top: 66px; }
+    footer .footer-menu a {
+      display: block;
+      text-decoration: none;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 18px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 10px; }
+  footer .soc {
+    margin-top: 66px; }
+    footer .soc a {
+      display: inline-block;
+      text-decoration: none;
+      margin-left: 20px; }
+  footer .footer-zabronirovat {
+    display: block;
+    text-decoration: none;
+    width: 279px;
+    margin-top: 50px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 5px; }
+  footer .copyright {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 20px; }
